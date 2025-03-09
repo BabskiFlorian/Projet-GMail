@@ -1,3 +1,6 @@
+/* Importation de la police Roboto depuis Google Fonts */
+
+
 main {
     display: flex;
     justify-content: flex-start; /* Aligner à gauche */
@@ -9,3 +12,98 @@ main {
     background-position: center;
     max-width: none;
 }
+
+.container {
+    display: flex;
+    flex-direction: column; /* Aligne les éléments en colonne */
+    justify-content: center; /* Centre verticalement */
+    align-items: center; /* Centre horizontalement */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 35rem;
+    height: 50vh; 
+    margin: 0 auto; /* Centre le conteneur horizontalement si le body n'est pas en Flexbox */
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+h1 {
+    padding-top: 1rem;
+    font-weight:100;
+    font-size: 48px;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+    text-align: center;
+}
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.tab {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+.tab.active {
+    border-bottom: 2px solid #007bff;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group input[type="password"] {
+    letter-spacing: 2px;
+}
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+.bouton-bas {
+    position: fixed; /* Position fixe par rapport à la fenêtre du navigateur */
+    bottom: 20px; /* Distance depuis le bas */
+    right: 20px; /* Distance depuis la droite */
+    z-index: 999; /* Assure que l'image est au-dessus des autres éléments */
+    background-color: #b3303d;
+    border-radius: 50%; /* Rend l'image ronde (facultatif) */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7); /* Ajoute une ombre (facultatif) */
+
+  }
+  
+  .bouton-bas img {
+    width: 4rem; /* Ajustez la taille de l'image selon vos besoins */
+    height: 3.5rem;
+    transform: scale(0.5); /* 1.2 = 120% */
+  }
+  main h1 {
+    font-size: 48px;
+    color: white;
+    position: absolute;
+    top: 15rem;
+    left: 10rem;
+    text-align: left;
+  }

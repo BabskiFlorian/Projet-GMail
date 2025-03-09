@@ -1,12 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+
+  }
 header {
     background-color: #f0f0f0;
     display: flex;
     align-items: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
- 
+    position: fixed; /* Ajout de la position fixe */
+    top: 0; /* Positionne le header en haut de la fenêtre */
+    left: 0; /* Positionne le header à gauche de la fenêtre */
+    right: 0; /* Étend le header sur toute la largeur de la fenêtre */
+    z-index: 100; /* Assure que le header est au-dessus des autres éléments */
 }
+
 body {
-    font-family: "Arial", sans-serif;
+    margin-top: 3.2rem; /* Ajoute une marge pour éviter que le contenu ne soit caché par le header */
 }
 
 nav {
@@ -16,34 +28,34 @@ nav {
 }
 
 .logo {
-    max-width: 5rem ;
+    max-width: 5rem;
     margin-right: 20px;
     object-fit: contain;
 }
 
-nav a { /* Style pour les liens au lieu des boutons */
+nav a {
     padding: 1rem;
     border: none;
     cursor: pointer;
     margin-left: 5px;
-    text-decoration: none; /* Supprime le soulignement par défaut des liens */
-    color: black; /* Couleur du texte par défaut */
+    text-decoration: none;
+    color: black;
 }
-
-
 
 .inscription {
     background-color: #b3303d;
     color: white;
 }
+
 .inscription-centre {
     position: absolute;
-    top: 20rem; /* Ajustez la distance depuis le haut */
-    left: 4rem; /* Ajustez la distance depuis la gauche */
+    top: 30rem;
+    left: 10rem;
     background-color: #b3303d;
     color: white;
     padding: 15px 30px;
     text-decoration: none;
     border-radius: 2px;
-    font-size: 1.2em;
+    font-size: 24px;
+    font-weight: 500;
 }
