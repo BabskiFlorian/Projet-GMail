@@ -1,0 +1,11 @@
+main {
+    display: flex;
+    justify-content: flex-start; /* Aligner à gauche */
+    align-items: flex-start; /* Aligner en haut (optionnel) */
+    height: 100vh;
+    background-image: url("../assets/home-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: none;
+}
