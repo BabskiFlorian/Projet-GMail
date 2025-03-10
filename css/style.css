@@ -19,6 +19,7 @@ header {
 
 body {
     margin-top: 3.2rem; /* Ajoute une marge pour éviter que le contenu ne soit caché par le header */
+    margin: 0;
 }
 
 nav {
@@ -41,7 +42,6 @@ nav a {
     text-decoration: none;
     color: black;
 }
-
 .inscription {
     background-color: #b3303d;
     color: white;
