@@ -4,21 +4,21 @@ html {
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
 
-  }
+}
 header {
     background-color: #f0f0f0;
     display: flex;
     align-items: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    position: fixed; /* Ajout de la position fixe */
-    top: 0; /* Positionne le header en haut de la fenêtre */
-    left: 0; /* Positionne le header à gauche de la fenêtre */
-    right: 0; /* Étend le header sur toute la largeur de la fenêtre */
-    z-index: 100; /* Assure que le header est au-dessus des autres éléments */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
 }
 
 body {
-    margin-top: 3.2rem; /* Ajoute une marge pour éviter que le contenu ne soit caché par le header */
+    margin-top: 3.2rem;
     margin: 0;
 }
 

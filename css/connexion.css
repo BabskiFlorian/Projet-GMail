@@ -1,14 +1,14 @@
 .container {
     display: flex;
-    flex-direction: column; /* Aligne les éléments en colonne */
-    justify-content: center; /* Centre verticalement */
-    align-items: center; /* Centre horizontalement */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 25rem;
-    height: 40vh; 
-    margin: 0 auto; /* Centre le conteneur horizontalement si le body n'est pas en Flexbox */
+    height: 40vh;
+    margin: 0 auto;
     margin-top: 10rem;
 }
 
